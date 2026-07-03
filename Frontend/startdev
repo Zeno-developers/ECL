@@ -1,0 +1,41 @@
+cd C:\Users\Astute Forex Institu\Documents\frontend\backend
+C:\xampp-new\php\php.exe -S 127.0.0.1:5000 -t public
+
+
+// 
+week
+
+
+
+Email	Role	Password
+admin@elchurch.site	admin	admin123
+yamukelanifx@gmail.com	superadmin	admin123
+pastor@elchurch.site	pastor	Password123!
+nomsa.zulu@elchurch.site	zone_leader	Password123!
+All other seeded users	member/cell_leader	Password123!
+
+
+sipho.usher@elchurch.site	Sipho Mdlalose
+thandi.usher@elchurch.site	Thandi Buthelezi
+blessing.usher@elchurch.site	Blessing Mthethwa
+
+
+
+Name
+Eternallovechurch
+Token Id
+E4E734B621FC4E6C90A9102D4D360018-01-1
+
+Token Secret
+XigE1NwmIM181!7t*MnF4VN0yFnpk
+
+Basic Auth
+Authorization: Basic RTRFNzM0QjYyMUZDNEU2QzkwQTkxMDJENEQzNjAwMTgtMDEtMTpYaWdFMU53bUlNMTgxITd0Kk1uRjRWTjB5Rm5waw==
+
+ The secret is shown once only, so copy it now
+
+
+ PS C:\Users\User\Documents\frontend> cd whatsapp-service
+PS C:\Users\User\Documents\frontend\whatsapp-service> node index.js
+WhatsApp service running on port 3001
+Waiting for WhatsApp to connect...

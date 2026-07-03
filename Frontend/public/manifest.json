@@ -1,0 +1,121 @@
+{
+  "name": "Eternal Love Church",
+  "short_name": "ELC",
+  "description": "A Spirit-filled, prophetic church in Mtubatuba, raising lives transformed by the love of God.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2d1b69",
+  "theme_color": "#2d1b69",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+
+  "categories": ["religion", "spirituality", "community"],
+
+  "icons": [
+    {
+      "src": "/images/pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/pwa-icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Submit Prayer",
+      "short_name": "Prayer",
+      "description": "Submit a prayer request",
+      "url": "/mobile/prayer",
+      "icons": [
+        {
+          "src": "/images/icons/prayer.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Give Online",
+      "short_name": "Give",
+      "description": "Make a secure donation",
+      "url": "/mobile/giving",
+      "icons": [
+        {
+          "src": "/images/icons/give.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "short_name": "Events",
+      "description": "View upcoming events",
+      "url": "/mobile/events",
+      "icons": [
+        {
+          "src": "/images/icons/events.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Profile",
+      "short_name": "Profile",
+      "description": "Manage your profile",
+      "url": "/mobile/profile",
+      "icons": [
+        {
+          "src": "/images/icons/profile.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://elchurch.site"
+    }
+  ],
+  "prefer_related_applications": false,
+
+  "display_override": ["window-controls-overlay", "minimal-ui"],
+
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+
+  "protocol_handlers": [
+    {
+      "protocol": "web+eternallovechurch",
+      "url": "/?protocol=%s"
+    }
+  ],
+
+  "iarc_rating_id": "e58bcf2b-58b5-4c2e-bc69-17d8b8a7c8e1",
+
+  "developer": {
+    "name": "Yamukelani Ntimbane",
+    "role": "Software Developer"
+  }
+}

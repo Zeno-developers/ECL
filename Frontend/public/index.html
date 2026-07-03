@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2d1b69" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Eternal Love Church - A Christ-centered church in Mtubatuba sharing the Gospel through worship, prayer, and community" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Eternal Love Church" />
+    <meta property="og:description" content="A Christ-centered church in Mtubatuba sharing the Gospel through worship, prayer, and community" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://elchurch.site" />
+    <meta property="og:image" content="/church-og-image.jpg" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Eternal Love Church" />
+    <meta name="twitter:description" content="A Christ-centered church in Mtubatuba sharing the Gospel through worship, prayer, and community" />
+    <meta name="twitter:image" content="/church-twitter-image.jpg" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" as="style">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <!-- Safari Pinned Tab Icon -->
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2d1b69">
+    
+    <title>Eternal Love Church</title>
+    
+    <style>
+      /* Critical CSS for initial loading */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #2d1b69 0%, #4a3a8c 100%);
+        color: #333;
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+      
+      /* Loading screen styles */
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #2d1b69 0%, #4a3a8c 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      .loading-logo {
+        width: 80px;
+        height: 80px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      
+      .loading-logo i {
+        font-size: 2rem;
+        color: #d4af37;
+      }
+      
+      .loading-text {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      
+      .loading-subtext {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.9rem;
+        text-align: center;
+        max-width: 300px;
+      }
+      
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-top: 3px solid #d4af37;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-top: 20px;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Progressive enhancement for reduced motion */
+      @media (prefers-reduced-motion: reduce) {
+        .loading-spinner {
+          animation: none;
+        }
+      }
+      
+      /* Safe area insets for modern mobile devices */
+      .safe-area-inset-top {
+        padding-top: env(safe-area-inset-top);
+      }
+      
+      .safe-area-inset-bottom {
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+      
+      .safe-area-inset-left {
+        padding-left: env(safe-area-inset-left);
+      }
+      
+      .safe-area-inset-right {
+        padding-right: env(safe-area-inset-right);
+      }
+      
+      /* Hide loading screen when app is ready */
+      #loading-screen.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+      
+      /* Root container styles */
+      #root {
+        min-height: 100vh;
+        width: 100%;
+      }
+      
+      /* Focus styles for accessibility */
+      *:focus {
+        outline: 2px solid #d4af37;
+        outline-offset: 2px;
+      }
+      
+      /* High contrast mode support */
+      @media (prefers-contrast: high) {
+        .loading-logo {
+          background: rgba(0, 0, 0, 0.8);
+          border: 2px solid white;
+        }
+      }
+      
+      /* Dark mode support */
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: linear-gradient(135deg, #1a103d 0%, #2d1b69 100%);
+        }
+      } 
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen
+    <div id="loading-screen">
+      <div class="loading-logo">
+        <i class="fas fa-church"></i>
+      </div>
+      <div class="loading-text">Eternal Love Church</div>
+      <div class="loading-subtext">Worship � Prayer � Community</div>
+      <div class="loading-spinner"></div>
+    </div> -->
+
+    <!-- React App Mount Point -->
+    <div id="root"></div>
+    
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <script>
+      // Enhanced loading screen management
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadingScreen = document.getElementById('loading-screen');
+        
+        // Hide loading screen when React app is ready
+        window.addEventListener('load', function() {
+          setTimeout(() => {
+            if (!loadingScreen) return;
+            loadingScreen.classList.add('hidden');
+            // Remove from DOM after transition
+            setTimeout(() => {
+              if (loadingScreen && loadingScreen.parentNode) {
+                loadingScreen.parentNode.removeChild(loadingScreen);
+              }
+            }, 500);
+          }, 1000);
+        });
+        
+        // Fallback: hide loading screen after 5 seconds max
+        setTimeout(() => {
+          if (loadingScreen && !loadingScreen.classList.contains('hidden')) {
+            loadingScreen.classList.add('hidden');
+            setTimeout(() => {
+              if (loadingScreen && loadingScreen.parentNode) {
+                loadingScreen.parentNode.removeChild(loadingScreen);
+              }
+            }, 500);
+          }
+        }, 5000);
+        
+        // Service workers can interfere with Vite dev HMR.
+        const LOCAL_HOSTNAMES = ['localhost', '127.0.0.1', '::1'];
+        const isLocalDev = LOCAL_HOSTNAMES.includes(window.location.hostname);
+        if ('serviceWorker' in navigator && isLocalDev) {
+          // Immediate cleanup of any existing service workers
+          if (navigator.serviceWorker.controller) {
+            console.log('SW controller detected, unregistering...');
+            navigator.serviceWorker.controller.postMessage({ type: 'UNREGISTER' });
+          }
+
+          navigator.serviceWorker.getRegistrations()
+            .then(function(registrations) {
+              if (registrations.length > 0) {
+                console.log('Found ' + registrations.length + ' SW registrations, unregistering...');
+                return Promise.all(registrations.map(function(registration) {
+                  return registration.unregister();
+                }));
+              }
+            })
+            .then(function() {
+              console.log('Local SW cleanup complete');
+              if (navigator.serviceWorker.controller && !sessionStorage.getItem('swCleanupReloaded')) {
+                sessionStorage.setItem('swCleanupReloaded', 'true');
+                console.log('Reloading page to clear SW controller...');
+                window.location.reload();
+              }
+            })
+            .catch(function(error) {
+              console.warn('Local SW cleanup failed:', error);
+            });
+        }
+
+        // Service Worker Registration for PWA
+        if ('serviceWorker' in navigator && !isLocalDev) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js')
+              .then(function(registration) {
+                console.log('SW registered: ', registration);
+              })
+              .catch(function(registrationError) {
+                console.log('SW registration failed: ', registrationError);
+              });
+          });
+        }
+        
+        // Touch event detection for mobile optimization
+        let isTouchDevice = false;
+        
+        function detectTouch() {
+          isTouchDevice = 'ontouchstart' in window || 
+                         navigator.maxTouchPoints > 0 || 
+                         navigator.msMaxTouchPoints > 0;
+          
+          if (isTouchDevice) {
+            document.documentElement.classList.add('touch-device');
+          } else {
+            document.documentElement.classList.add('no-touch-device');
+          }
+        }
+        
+        detectTouch();
+        
+        // Network status detection
+        function updateNetworkStatus() {
+          if (navigator.onLine) {
+            document.documentElement.classList.remove('offline');
+            document.documentElement.classList.add('online');
+          } else {
+            document.documentElement.classList.remove('online');
+            document.documentElement.classList.add('offline');
+          }
+        }
+        
+        window.addEventListener('online', updateNetworkStatus);
+        window.addEventListener('offline', updateNetworkStatus);
+        updateNetworkStatus(); // Initial check
+        
+        // Performance monitoring
+        if ('performance' in window) {
+          window.addEventListener('load', function() {
+            setTimeout(function() {
+              const perfData = window.performance.timing;
+              const loadTime = perfData.loadEventEnd - perfData.navigationStart;
+              console.log('Page load time:', loadTime + 'ms');
+              
+              // Send to analytics if available
+              if (window.gtag) {
+                gtag('event', 'timing_complete', {
+                  'name': 'page_load',
+                  'value': loadTime,
+                  'event_category': 'Load Performance'
+                });
+              }
+            }, 0);
+          });
+        }
+      });
+      
+      // Error boundary for unhandled errors
+      window.addEventListener('error', function(e) {
+        console.error('Global error caught:', e.error);
+        // You can send this to your error tracking service
+        if (window.gtag) {
+          gtag('event', 'exception', {
+            'description': e.error?.message || 'Unknown error',
+            'fatal': false
+          });
+        }
+      });
+      
+      // Unhandled promise rejection
+      window.addEventListener('unhandledrejection', function(e) {
+        console.error('Unhandled promise rejection:', e.reason);
+        e.preventDefault();
+      });
+    </script>
+    
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID', {
+        page_title: document.title,
+        page_location: window.location.href
+      });
+    </script>
+  </body>
+</html>

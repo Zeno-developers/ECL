@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="Eternal Love Church">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a3a8c"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="36" fill="url(#bg)"/>
+  <circle cx="96" cy="78" r="48" fill="#d4af37"/>
+  <rect x="88" y="44" width="16" height="54" rx="8" fill="#ffffff"/>
+  <rect x="69" y="63" width="54" height="16" rx="8" fill="#ffffff"/>
+  <text x="96" y="150" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">ELC</text>
+</svg>
