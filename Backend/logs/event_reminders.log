@@ -1,0 +1,253 @@
+[2026-04-16 00:53:05] [INFO] EventReminderCron initialized
+[2026-04-16 00:53:05] [INFO] Starting event reminder cron job...
+[2026-04-16 00:53:05] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 00:53:06] [INFO] No events found for reminder date
+[2026-04-16 00:54:25] [INFO] EventReminderCron initialized
+[2026-04-16 00:54:25] [INFO] Starting event reminder cron job...
+[2026-04-16 00:54:25] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 00:54:25] [INFO] Found 1 event(s) to remind about
+[2026-04-16 00:54:25] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 00:54:27] [INFO] Event reminder email sent successfully to: pastor@gmail.com
+[2026-04-16 00:54:27] [ERROR] Failed to log reminder: Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'eternallovechurch_db.cron_logs' doesn't exist
+[2026-04-16 00:54:27] [INFO] Event reminder cron job completed successfully
+[2026-04-16 00:57:07] [INFO] EventReminderCron initialized
+[2026-04-16 00:57:07] [INFO] Starting event reminder cron job...
+[2026-04-16 00:57:07] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 00:57:08] [INFO] Found 1 event(s) to remind about
+[2026-04-16 00:57:08] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 00:57:13] [INFO] Event reminder email sent successfully to: pastor@gmail.com
+[2026-04-16 00:57:14] [INFO] Event reminder cron job completed successfully
+[2026-04-16 01:01:33] [INFO] EventReminderCron initialized
+[2026-04-16 01:01:34] [INFO] Starting event reminder cron job...
+[2026-04-16 01:01:34] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 01:01:34] [INFO] Found 1 event(s) to remind about
+[2026-04-16 01:01:34] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 01:01:34] [ERROR] Failed to get pastor emails: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'personal_email' in 'field list'
+[2026-04-16 01:01:34] [INFO] No pastors found to send reminder to
+[2026-04-16 01:01:34] [INFO] Event reminder cron job completed successfully
+[2026-04-16 01:05:42] [INFO] EventReminderCron initialized
+[2026-04-16 01:05:42] [INFO] Starting event reminder cron job...
+[2026-04-16 01:05:42] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 01:05:42] [INFO] Found 1 event(s) to remind about
+[2026-04-16 01:05:42] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 01:05:42] [ERROR] Failed to get pastor emails: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'personal_email' in 'field list'
+[2026-04-16 01:05:43] [INFO] No pastors found to send reminder to
+[2026-04-16 01:05:43] [INFO] Event reminder cron job completed successfully
+[2026-04-16 01:11:39] [INFO] EventReminderCron initialized
+[2026-04-16 01:11:39] [INFO] Starting event reminder cron job...
+[2026-04-16 01:11:39] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 01:11:40] [INFO] Found 1 event(s) to remind about
+[2026-04-16 01:11:40] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 01:11:45] [INFO] Event reminder email sent successfully to: admin@gmail.com
+[2026-04-16 01:11:47] [INFO] Event reminder email sent successfully to: eveyntimbane@gmail.com
+[2026-04-16 01:11:49] [INFO] Event reminder email sent successfully to: pastor@gmail.com
+[2026-04-16 01:11:53] [INFO] Event reminder email sent successfully to: admin@eternallovechurch.org
+[2026-04-16 01:11:55] [INFO] Event reminder email sent successfully to: yamukelanintimbane@gmail.com
+[2026-04-16 01:11:55] [INFO] Event reminder cron job completed successfully
+[2026-04-16 02:04:55] [INFO] EventReminderCron initialized
+[2026-04-16 02:04:55] [INFO] Starting event reminder cron job...
+[2026-04-16 02:04:55] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 02:04:55] [INFO] Found 1 event(s) to remind about
+[2026-04-16 02:04:55] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 02:04:57] [INFO] Event reminder email sent successfully to: admin@gmail.com
+[2026-04-16 02:04:58] [INFO] Event reminder email sent successfully to: eveyntimbane@gmail.com
+[2026-04-16 02:05:00] [INFO] Event reminder email sent successfully to: pastor@gmail.com
+[2026-04-16 02:05:02] [INFO] Event reminder email sent successfully to: admin@eternallovechurch.org
+[2026-04-16 02:05:03] [INFO] Event reminder email sent successfully to: yamukelanintimbane@gmail.com
+[2026-04-16 02:05:03] [INFO] Event reminder cron job completed successfully
+[2026-04-16 15:12:14] [INFO] EventReminderCron initialized
+[2026-04-16 15:12:15] [INFO] Starting event reminder cron job...
+[2026-04-16 15:12:15] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 15:12:15] [INFO] Found 1 event(s) to remind about
+[2026-04-16 15:12:15] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 15:12:17] [INFO] Event reminder email sent successfully to: admin34@elc.com
+[2026-04-16 15:12:18] [INFO] Event reminder email sent successfully to: yamukelanintimbane@gmail.com
+[2026-04-16 15:12:18] [INFO] Event reminder cron job completed successfully
+[2026-04-16 22:26:00] [INFO] EventReminderCron initialized
+[2026-04-16 22:26:00] [INFO] Starting event reminder cron job...
+[2026-04-16 22:26:00] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 22:26:02] [INFO] Found 1 event(s) to remind about
+[2026-04-16 22:26:02] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 22:26:04] [ERROR] Exception sending event reminder email to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:26:04] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:26:04] [ERROR] SMTP Port: 465
+[2026-04-16 22:26:04] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:26:04] [ERROR] Exception sending event reminder email to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:26:04] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:26:04] [ERROR] SMTP Port: 465
+[2026-04-16 22:26:04] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:26:05] [INFO] Event reminder cron job completed successfully
+[2026-04-16 22:28:30] [INFO] EventReminderCron initialized
+[2026-04-16 22:28:30] [INFO] Starting event reminder cron job...
+[2026-04-16 22:28:30] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 22:28:30] [INFO] Found 1 event(s) to remind about
+[2026-04-16 22:28:30] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 22:28:30] [ERROR] Exception sending event reminder email to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:28:30] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:28:30] [ERROR] SMTP Port: 465
+[2026-04-16 22:28:30] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:28:30] [ERROR] Exception sending event reminder email to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:28:30] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:28:30] [ERROR] SMTP Port: 465
+[2026-04-16 22:28:30] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:28:31] [INFO] Event reminder cron job completed successfully
+[2026-04-16 22:29:19] [INFO] EventReminderCron initialized
+[2026-04-16 22:29:19] [INFO] Starting event reminder cron job...
+[2026-04-16 22:29:19] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 22:29:20] [INFO] Found 1 event(s) to remind about
+[2026-04-16 22:29:20] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 22:29:20] [ERROR] Exception sending event reminder email to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:29:20] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:29:20] [ERROR] SMTP Port: 465
+[2026-04-16 22:29:20] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:29:20] [ERROR] Exception sending event reminder email to admin@eternallovechurch.org: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:29:20] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:29:20] [ERROR] SMTP Port: 465
+[2026-04-16 22:29:20] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:29:20] [ERROR] Exception sending event reminder email to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:29:20] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:29:20] [ERROR] SMTP Port: 465
+[2026-04-16 22:29:20] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:29:21] [INFO] Event reminder cron job completed successfully
+[2026-04-16 22:29:51] [INFO] EventReminderCron initialized
+[2026-04-16 22:29:51] [INFO] Starting event reminder cron job...
+[2026-04-16 22:29:51] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 22:29:51] [INFO] Found 1 event(s) to remind about
+[2026-04-16 22:29:51] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 22:29:51] [ERROR] Exception sending event reminder email to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:29:51] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:29:51] [ERROR] SMTP Port: 465
+[2026-04-16 22:29:51] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:29:51] [ERROR] Exception sending event reminder email to admin@eternallovechurch.org: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:29:51] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:29:51] [ERROR] SMTP Port: 465
+[2026-04-16 22:29:51] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:29:51] [ERROR] Exception sending event reminder email to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:29:51] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:29:51] [ERROR] SMTP Port: 465
+[2026-04-16 22:29:51] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:29:52] [INFO] Event reminder cron job completed successfully
+[2026-04-16 22:46:16] [INFO] EventReminderCron initialized
+[2026-04-16 22:46:16] [INFO] Starting event reminder cron job...
+[2026-04-16 22:46:16] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 22:46:17] [INFO] Found 1 event(s) to remind about
+[2026-04-16 22:46:17] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 22:46:17] [ERROR] Exception sending event reminder email to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:46:17] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:46:17] [ERROR] SMTP Port: 465
+[2026-04-16 22:46:17] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:46:17] [ERROR] Exception sending event reminder email to admin@eternallovechurch.org: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:46:17] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:46:17] [ERROR] SMTP Port: 465
+[2026-04-16 22:46:17] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:46:17] [ERROR] Exception sending event reminder email to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:46:17] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:46:17] [ERROR] SMTP Port: 465
+[2026-04-16 22:46:17] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:46:18] [INFO] Event reminder cron job completed successfully
+[2026-04-16 22:48:24] [INFO] EventReminderCron initialized
+[2026-04-16 22:48:24] [INFO] Starting event reminder cron job...
+[2026-04-16 22:48:24] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 22:48:25] [INFO] Found 1 event(s) to remind about
+[2026-04-16 22:48:25] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 22:48:25] [ERROR] Exception sending event reminder email to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:48:25] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:48:25] [ERROR] SMTP Port: 465
+[2026-04-16 22:48:25] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:48:25] [ERROR] Exception sending event reminder email to admin@eternallovechurch.org: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:48:25] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:48:25] [ERROR] SMTP Port: 465
+[2026-04-16 22:48:25] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:48:25] [ERROR] Exception sending event reminder email to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 22:48:25] [ERROR] SMTP Host: mail.hrim.co.za
+[2026-04-16 22:48:25] [ERROR] SMTP Port: 465
+[2026-04-16 22:48:25] [ERROR] SMTP Encryption: ssl
+[2026-04-16 22:48:26] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:01:47] [INFO] EventReminderCron initialized
+[2026-04-16 23:01:47] [INFO] Starting event reminder cron job...
+[2026-04-16 23:01:47] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:01:48] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:01:48] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:02:25] [INFO] EventReminderCron initialized
+[2026-04-16 23:02:25] [INFO] Starting event reminder cron job...
+[2026-04-16 23:02:25] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:02:25] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:02:25] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:02:26] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:08:11] [INFO] EventReminderCron initialized
+[2026-04-16 23:08:11] [INFO] Starting event reminder cron job...
+[2026-04-16 23:08:11] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:08:11] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:08:11] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:08:13] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:12:23] [INFO] EventReminderCron initialized
+[2026-04-16 23:12:24] [INFO] Starting event reminder cron job...
+[2026-04-16 23:12:24] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:12:24] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:12:24] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:12:25] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:14:57] [INFO] EventReminderCron initialized
+[2026-04-16 23:14:57] [INFO] Starting event reminder cron job...
+[2026-04-16 23:14:57] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:14:58] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:14:58] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:14:58] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:18:49] [INFO] EventReminderCron initialized
+[2026-04-16 23:18:49] [INFO] Starting event reminder cron job...
+[2026-04-16 23:18:49] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:18:49] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:18:49] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:18:50] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:25:31] [INFO] EventReminderCron initialized
+[2026-04-16 23:25:31] [INFO] Starting event reminder cron job...
+[2026-04-16 23:25:31] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:25:31] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:25:31] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:25:32] [ERROR] Reminder email exception to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 23:25:32] [ERROR] Reminder email exception to admin@eternallovechurch.org: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 23:25:32] [ERROR] Reminder email exception to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2026-04-16 23:25:32] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:32:12] [INFO] EventReminderCron initialized
+[2026-04-16 23:32:12] [INFO] Starting event reminder cron job...
+[2026-04-16 23:32:12] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:32:12] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:32:12] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:32:13] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:33:24] [INFO] EventReminderCron initialized
+[2026-04-16 23:33:25] [INFO] Starting event reminder cron job...
+[2026-04-16 23:33:25] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:33:25] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:33:25] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:33:26] [INFO] Event reminder cron job completed successfully
+[2026-04-16 23:40:19] [INFO] EventReminderCron initialized
+[2026-04-16 23:40:19] [INFO] Starting event reminder cron job...
+[2026-04-16 23:40:19] [INFO] Looking for events between 2026-04-18 and 2026-04-19
+[2026-04-16 23:40:20] [INFO] Found 1 event(s) to remind about
+[2026-04-16 23:40:20] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-16 23:40:20] [INFO] Event reminder cron job completed successfully
+[2026-04-18 02:42:45] [INFO] EventReminderCron initialized
+[2026-04-18 02:42:45] [INFO] Starting event reminder cron job...
+[2026-04-18 02:42:46] [INFO] Looking for events between 2026-04-20 and 2026-04-21
+[2026-04-18 02:42:46] [INFO] No events found for reminder date
+[2026-04-18 02:44:26] [INFO] EventReminderCron initialized
+[2026-04-18 02:44:26] [INFO] Starting event reminder cron job...
+[2026-04-18 02:44:26] [INFO] Looking for events between 2026-04-20 and 2026-04-21
+[2026-04-18 02:44:26] [INFO] Found 1 event(s) to remind about
+[2026-04-18 02:44:26] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-18 02:44:37] [INFO] Event reminder cron job completed successfully
+[2026-04-18 02:49:09] [INFO] EventReminderCron initialized
+[2026-04-18 02:49:09] [INFO] Starting event reminder cron job...
+[2026-04-18 02:49:14] [INFO] Looking for events between 2026-04-20 and 2026-04-21
+[2026-04-18 02:49:14] [INFO] Found 1 event(s) to remind about
+[2026-04-18 02:49:14] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-18 02:49:48] [INFO] Event reminder cron job completed successfully
+[2026-04-18 02:55:17] [INFO] EventReminderCron initialized
+[2026-04-18 02:55:17] [INFO] Starting event reminder cron job...
+[2026-04-18 02:55:17] [INFO] Looking for events between 2026-04-20 and 2026-04-21
+[2026-04-18 02:55:17] [INFO] Found 1 event(s) to remind about
+[2026-04-18 02:55:17] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations
+[2026-04-18 02:55:20] [INFO] Event reminder email sent successfully to: admin34@elc.com
+[2026-04-18 02:55:22] [INFO] Event reminder email sent successfully to: AdminUser@etlc.com
+[2026-04-18 02:55:24] [INFO] Event reminder email sent successfully to: admin@eternallovechurch.org
+[2026-04-18 02:55:26] [INFO] Event reminder email sent successfully to: yamukelanintimbane@gmail.com
+[2026-04-18 02:55:26] [INFO] Event reminder cron job completed successfully

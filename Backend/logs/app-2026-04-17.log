@@ -1,0 +1,6 @@
+[2026-04-17T00:07:53.059371+02:00] eternal-love-church-api.INFO: Registration complete - attempting to send welcome email {"email":"eveyntimbane+reg3@gmail.com"} []
+[2026-04-17T00:07:58.889420+02:00] eternal-love-church-api.INFO: Welcome email sent successfully {"email":"eveyntimbane+reg3@gmail.com"} []
+[2026-04-17T00:07:58.970517+02:00] eternal-love-church-api.INFO: Welcome email sent successfully to new user {"email":"eveyntimbane+reg3@gmail.com"} []
+[2026-04-17T09:15:25.970327+02:00] eternal-love-church-api.INFO: Registration complete - attempting to send welcome email {"email":"AdminUser@etlc.com"} []
+[2026-04-17T09:15:26.606856+02:00] eternal-love-church-api.ERROR: Exception sending welcome email {"email":"AdminUser@etlc.com","error":"SMTP Error: Could not connect to SMTP host. Failed to connect to server","smtp":{"host":"mail.hrim.co.za","port":465,"username":"ertenallove@hrim.co.za","encryption":"ssl","from_address":"ertenallove@hrim.co.za","from_name":"Eternal Love Church"}} []
+[2026-04-17T09:15:26.628489+02:00] eternal-love-church-api.WARNING: Welcome email failed to send {"email":"AdminUser@etlc.com","smtp":{"host":"mail.hrim.co.za","port":465,"username":"ertenallove@hrim.co.za","encryption":"ssl","from_address":"ertenallove@hrim.co.za","from_name":"Eternal Love Church"}} []

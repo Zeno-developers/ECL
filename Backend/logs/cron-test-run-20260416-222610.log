@@ -1,0 +1,58 @@
+[
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\calculate_scores.php",
+        "name": "calculate_scores.php",
+        "exit": 255,
+        "duration_seconds": 0.32,
+        "stdout": "\nWarning: require_once(C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron/../bootstrap.php): Failed to open stream: No such file or directory in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\calculate_scores.php on line 14\n\nFatal error: Uncaught Error: Failed opening required 'C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron/../bootstrap.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\calculate_scores.php:14\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\calculate_scores.php on line 14\n",
+        "stderr": "PHP Warning:  require_once(C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron/../bootstrap.php): Failed to open stream: No such file or directory in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\calculate_scores.php on line 14\nPHP Fatal error:  Uncaught Error: Failed opening required 'C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron/../bootstrap.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\calculate_scores.php:14\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\calculate_scores.php on line 14\n"
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php",
+        "name": "process_absence.php",
+        "exit": 255,
+        "duration_seconds": 7.134,
+        "stdout": "[2026-04-16 22:25:56] Starting absence processing...\nProcessing absences for date: 2026-04-12\nFound 6 active members\n\nFatal error: Uncaught Error: Call to undefined method App\\Database::lastInsertId() in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php:124\nStack trace:\n#0 C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php(65): AbsenceProcessor->flagAbsence(Array, '2026-04-12')\n#1 C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php(300): AbsenceProcessor->process()\n#2 {main}\n  thrown in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php on line 124\n",
+        "stderr": "PHP Fatal error:  Uncaught Error: Call to undefined method App\\Database::lastInsertId() in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php:124\nStack trace:\n#0 C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php(65): AbsenceProcessor->flagAbsence(Array, '2026-04-12')\n#1 C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php(300): AbsenceProcessor->process()\n#2 {main}\n  thrown in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php on line 124\n"
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_email_queue.php",
+        "name": "process_email_queue.php",
+        "exit": 0,
+        "duration_seconds": 0.798,
+        "stdout": "[2026-04-16 22:25:59] Email Queue Processor Starting\n[2026-04-16 22:25:59] Queue Processed: Sent=0, Failed=0, Processed=0\n\nQueue Statistics:\n  Pending: 0\n  Sent: 0\n  Failed: 0\n  Total: 0\n\n[2026-04-16 22:25:59] Completed in 469.7ms\n",
+        "stderr": "Email Queue Processing - Sent: 0, Failed: 0, Processed: 0\n[2026-04-16 22:25:59] Queue Processed: Sent=0, Failed=0, Processed=0\n\n"
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php",
+        "name": "retry-email-queue.php",
+        "exit": 255,
+        "duration_seconds": 0.268,
+        "stdout": "\nWarning: The use statement with non-compound name 'Exception' has no effect in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php on line 18\n\nWarning: require_once(C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron/vendor/autoload.php): Failed to open stream: No such file or directory in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php on line 12\n\nFatal error: Uncaught Error: Failed opening required 'C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron/vendor/autoload.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php:12\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php on line 12\n",
+        "stderr": "PHP Warning:  The use statement with non-compound name 'Exception' has no effect in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php on line 18\nPHP Warning:  require_once(C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron/vendor/autoload.php): Failed to open stream: No such file or directory in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php on line 12\nPHP Fatal error:  Uncaught Error: Failed opening required 'C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron/vendor/autoload.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php:12\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php on line 12\n"
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\send_event_reminders.php",
+        "name": "send_event_reminders.php",
+        "exit": 0,
+        "duration_seconds": 5.314,
+        "stdout": "[2026-04-16 22:26:00] [INFO] EventReminderCron initialized\r\n[2026-04-16 22:26:00] [INFO] Starting event reminder cron job...\r\n[2026-04-16 22:26:00] [INFO] Looking for events between 2026-04-18 and 2026-04-19\r\n[2026-04-16 22:26:02] [INFO] Found 1 event(s) to remind about\r\n[2026-04-16 22:26:02] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations\r\n[2026-04-16 22:26:04] [ERROR] Exception sending event reminder email to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server\r\n[2026-04-16 22:26:04] [ERROR] SMTP Host: mail.hrim.co.za\r\n[2026-04-16 22:26:04] [ERROR] SMTP Port: 465\r\n[2026-04-16 22:26:04] [ERROR] SMTP Encryption: ssl\r\n[2026-04-16 22:26:04] [ERROR] Exception sending event reminder email to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server\r\n[2026-04-16 22:26:04] [ERROR] SMTP Host: mail.hrim.co.za\r\n[2026-04-16 22:26:04] [ERROR] SMTP Port: 465\r\n[2026-04-16 22:26:04] [ERROR] SMTP Encryption: ssl\r\n[2026-04-16 22:26:05] [INFO] Event reminder cron job completed successfully\r\n",
+        "stderr": ""
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\send_reminders.php",
+        "name": "send_reminders.php",
+        "exit": 0,
+        "duration_seconds": 3.169,
+        "stdout": "[2026-04-16 22:26:06] Starting reminder processing...\nGenerating polls for tomorrow's meetings...\nERROR generating polls: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.is_deleted' in 'where clause'\nSending cell meeting reminders for 2026-04-17...\nSent 0 cell meeting reminders\nSending absence follow-up reminders...\nSent 0 absence follow-up reminders\nChecking for new announcements to notify...\nSent 11 announcement notifications\n[2026-04-16 22:26:08] Reminder processing completed.\n",
+        "stderr": "Poll generation failed: Query failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.is_deleted' in 'where clause'\n"
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\send_weekly_reports.php",
+        "name": "send_weekly_reports.php",
+        "exit": 0,
+        "duration_seconds": 1.617,
+        "stdout": "[2026-04-16 22:26:09] Sending weekly reports for 2026-04-10 to 2026-04-16\n",
+        "stderr": "Weekly report email failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server\nWeekly report email failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server\n"
+    }
+]

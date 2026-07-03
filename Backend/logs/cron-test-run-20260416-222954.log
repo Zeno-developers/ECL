@@ -1,0 +1,58 @@
+[
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\calculate_scores.php",
+        "name": "calculate_scores.php",
+        "exit": 0,
+        "duration_seconds": 1.347,
+        "stdout": "[2026-04-16 22:29:48] Starting engagement score calculation...\nCalculating scores for: 2026-03-01\nFound 6 members to score\nScores calculated: 0 new, 6 updated\nCleaned up 0 old score records\n[2026-04-16 22:29:49] Engagement score calculation completed.\n",
+        "stderr": ""
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_absence.php",
+        "name": "process_absence.php",
+        "exit": 0,
+        "duration_seconds": 1.55,
+        "stdout": "[2026-04-16 22:29:49] Starting absence processing...\nProcessing absences for date: 2026-04-12\nFound 6 active members\nFlagged 6 members for absence on 2026-04-12\n[2026-04-16 22:29:50] Absence processing completed.\n",
+        "stderr": ""
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\process_email_queue.php",
+        "name": "process_email_queue.php",
+        "exit": 0,
+        "duration_seconds": 0.396,
+        "stdout": "[2026-04-16 22:29:50] Email Queue Processor Starting\n[2026-04-16 22:29:50] Queue Processed: Sent=0, Failed=0, Processed=0\n\nQueue Statistics:\n  Pending: 0\n  Sent: 0\n  Failed: 0\n  Total: 0\n\n[2026-04-16 22:29:50] Completed in 7.76ms\n",
+        "stderr": "Email Queue Processing - Sent: 0, Failed: 0, Processed: 0\n[2026-04-16 22:29:50] Queue Processed: Sent=0, Failed=0, Processed=0\n\n"
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\retry-email-queue.php",
+        "name": "retry-email-queue.php",
+        "exit": 0,
+        "duration_seconds": 0.335,
+        "stdout": "[2026-04-16 22:29:51] Starting email queue processing...\n[INFO] No pending emails to process.\n",
+        "stderr": ""
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\send_event_reminders.php",
+        "name": "send_event_reminders.php",
+        "exit": 0,
+        "duration_seconds": 0.854,
+        "stdout": "[2026-04-16 22:29:51] [INFO] EventReminderCron initialized\r\n[2026-04-16 22:29:51] [INFO] Starting event reminder cron job...\r\n[2026-04-16 22:29:51] [INFO] Looking for events between 2026-04-18 and 2026-04-19\r\n[2026-04-16 22:29:51] [INFO] Found 1 event(s) to remind about\r\n[2026-04-16 22:29:51] [INFO] Sending reminder for event: devine (ID: 1) with 2 registrations\r\n[2026-04-16 22:29:51] [ERROR] Exception sending event reminder email to admin34@elc.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server\r\n[2026-04-16 22:29:51] [ERROR] SMTP Host: mail.hrim.co.za\r\n[2026-04-16 22:29:51] [ERROR] SMTP Port: 465\r\n[2026-04-16 22:29:51] [ERROR] SMTP Encryption: ssl\r\n[2026-04-16 22:29:51] [ERROR] Exception sending event reminder email to admin@eternallovechurch.org: SMTP Error: Could not connect to SMTP host. Failed to connect to server\r\n[2026-04-16 22:29:51] [ERROR] SMTP Host: mail.hrim.co.za\r\n[2026-04-16 22:29:51] [ERROR] SMTP Port: 465\r\n[2026-04-16 22:29:51] [ERROR] SMTP Encryption: ssl\r\n[2026-04-16 22:29:51] [ERROR] Exception sending event reminder email to yamukelanintimbane@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server\r\n[2026-04-16 22:29:51] [ERROR] SMTP Host: mail.hrim.co.za\r\n[2026-04-16 22:29:51] [ERROR] SMTP Port: 465\r\n[2026-04-16 22:29:51] [ERROR] SMTP Encryption: ssl\r\n[2026-04-16 22:29:52] [INFO] Event reminder cron job completed successfully\r\n",
+        "stderr": ""
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\send_reminders.php",
+        "name": "send_reminders.php",
+        "exit": 0,
+        "duration_seconds": 1.544,
+        "stdout": "[2026-04-16 22:29:53] Starting reminder processing...\nGenerating polls for tomorrow's meetings...\nGenerated 1 polls and sent 0 notifications for 2026-04-17\nSending cell meeting reminders for 2026-04-17...\nSent 0 cell meeting reminders\nSending absence follow-up reminders...\nSent 0 absence follow-up reminders\nChecking for new announcements to notify...\nSent 12 announcement notifications\n[2026-04-16 22:29:53] Reminder processing completed.\n",
+        "stderr": ""
+    },
+    {
+        "file": "C:\\Users\\Astute Forex Institu\\Documents\\frontend\\backend\\cron\\send_weekly_reports.php",
+        "name": "send_weekly_reports.php",
+        "exit": 0,
+        "duration_seconds": 1.067,
+        "stdout": "[2026-04-16 22:29:54] Sending weekly reports for 2026-04-10 to 2026-04-16\n",
+        "stderr": "Weekly report email failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server\nWeekly report email failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server\nWeekly report email failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server\n"
+    }
+]
